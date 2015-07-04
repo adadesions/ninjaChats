@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  #user-online.list-header 
+    li 
+      p Users are online
+  #listofusers
+    
+      ul#listing
+  #appname
+    h1.dynamic AdaCode.io : NinjaChats
+    form#name_form
+        label(for="name") Name
+        input#name(type="text")
+        button Submit        
+  ul#messages
+  form#send
+    input#sender
+    button Send
+
+
